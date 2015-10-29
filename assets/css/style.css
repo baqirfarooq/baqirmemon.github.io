@@ -1,0 +1,75 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #343434;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.section-wrap {
+    border-top: 5px solid #1e1d1d;
+}
+
+/* section one */
+#section-one {
+    padding-top: 120px;
+    padding-bottom: 180px;
+    background: url("../images/background.jpg");
+    background-size: 100%;
+}
+#profile-image {
+    margin-bottom: 50px;
+}
+#profile-image img {
+    max-width: 180px;
+    height: auto;
+}
+#lead-text h1 {
+    font-weight: bold;
+}
+#lead-text .cta {
+    margin-top: 30px;
+}
+#lead-text .cta i.fa {
+    border: 1px solid #eaeaea;
+    padding: 10px;
+    border-radius: 27px;
+    margin-left: 15px;
+}
+
+/* section two */
+#about {
+    padding-top: 55px;
+}
+#about h3 {
+    margin-bottom: 35px;
+}
+#section-two {
+    /*background: url("/images/stack.png") repeat;*/
+    padding-top: 20px;
+}
+.info-box.stack {
+    padding: 20px;
+}
+.info-box.stack ul li {
+    list-style: none;
+}
+#social-media {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px dashed #1E1D1D;
+}
+#social-media ul {
+    margin: 0;
+    padding: 0;
+}
+#social-media ul li {
+    list-style: none;
+    display: inline-block;
+}
+#social-media ul li a {
+    display: block;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+}
